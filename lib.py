@@ -22,3 +22,6 @@ def merge(l1, l2):
     result.extend(l2[j:])
 
     return result
+
+if __name__ == "__main__":
+    print("Nothing to do")
