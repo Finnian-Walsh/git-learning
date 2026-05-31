@@ -25,3 +25,6 @@ def merge(l1: list[Any], l2: list[Any]):
     result.extend(l2[j:])
 
     return result
+
+if __name__ == "__main__":
+    print("Nothing to do")
