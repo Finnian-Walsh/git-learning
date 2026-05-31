@@ -1,4 +1,7 @@
-def half_sort(items):
+from typing import Any
+
+
+def half_sort(items: list[Any]):
     if len(items) > 1:
         half_index = len(items) // 2
         return merge(half_sort(items[0:half_index]), half_sort(items[half_index:]))
@@ -6,7 +9,7 @@ def half_sort(items):
         return items
 
 
-def merge(l1, l2):
+def merge(l1: list[Any], l2: list[Any]):
     result = []
     i, j = 0, 0
 
