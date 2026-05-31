@@ -1,3 +1,11 @@
+def half_sort(items):
+    if len(items) > 1:
+        half_index = len(items) // 2
+        return merge(half_sort(items[0:half_index]), half_sort(items[half_index:]))
+    else:
+        return items
+
+
 def merge(l1, l2):
     result = []
     i, j = 0, 0
