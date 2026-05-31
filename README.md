@@ -1,1 +1,2 @@
-Just some learning of git
+Some personal learning of git\
+Python usage
