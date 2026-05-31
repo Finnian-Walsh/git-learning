@@ -1,2 +1,3 @@
 Some personal learning of git\
-Python usage
+Python usage\
+Created in [Neovim](https://github.com/neovim/neovim/)
